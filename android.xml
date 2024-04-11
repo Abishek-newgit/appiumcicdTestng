@@ -24,12 +24,12 @@
 
             </class>
 
-            <class name="com.qa.testcase.ProductsTest">
-            </class>
+            <!--class name="com.qa.testcase.ProductsTest">
+            </class-->
         </classes>
     </test>
 
-    <test name="Samsung s20 Fe">
+    <!--test name="Samsung s20 Fe">
 
 
         <parameter name="emulator" value="false"/>
@@ -40,7 +40,7 @@
         <parameter name="chromeDriverPort" value="11002"/>
 
 
-        <!--define the class whicg the test case should run -->
+        <define the class whicg the test case should run >
 
         <classes>
             <class name="com.qa.testcase.LoginTest">
@@ -48,31 +48,6 @@
             <class name="com.qa.testcase.ProductsTest">
             </class>
         </classes>
-    </test>
-
-
-    <test name="iOS">
-
-        <parameter name="platformName" value="iOS"/>
-        <parameter name="deviceName" value="iPhone 15 Plus"/>
-        <parameter name="udid" value="0FF07A15-687E-47A8-9F0A-5D58CC7A17D4"/>
-        <parameter name="wdaLocalPort" value="10001"/>
-        <parameter name="webkitDebugProxyPort" value="11001"/>
-
-
-        <!-- define the class whicg the test case should run -->
-
-        <classes>
-            <class name="com.qa.testcase.LoginTest">
-
-            </class>
-            <class name="com.qa.testcase.ProductsTest">
-
-
-            </class>
-
-        </classes>
-
-    </test>
+    </test-->
 
 </suite>

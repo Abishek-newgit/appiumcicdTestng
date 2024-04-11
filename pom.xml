@@ -14,6 +14,33 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- got the plugin code from https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html -->
+    <build>
+        <plugins>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>19</source>
+                        <target>19</target>
+                    </configuration>
+                </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>android.xml</suiteXmlFile>
+                        <suiteXmlFile>iOS.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
 
@@ -29,7 +56,7 @@
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>9.1.0</version>
+            <version>9.2.2</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
