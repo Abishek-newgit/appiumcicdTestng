@@ -1,0 +1,672 @@
+<html>
+<head>
+<title>TestNG:  Samsung s20 Fe</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Samsung s20 Fe</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 30 16:28:57 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (213 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.initializeDriver()'><b>initializeDriver</b><br>Test class: com.qa.testcase.ProductsTest<br>Parameters: false, Android, Abi's S20 FE, RZCW111YE0V, 11002, iOSOnly, iOSOnly</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1894577531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1894577531'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.initializeDriver()'><b>initializeDriver</b><br>Test class: com.qa.testcase.LoginTest<br>Parameters: false, Android, Abi's S20 FE, RZCW111YE0V, 11002, iOSOnly, iOSOnly</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace583178920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace583178920'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.readJson()'><b>readJson</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.readjson()'><b>readjson</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.quitDriver()'><b>quitDriver</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.quitDriver()'><b>quitDriver</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace359659279", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace359659279'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.emptyUsername()'><b>emptyUsername</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace981517620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace981517620'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.getProductDes()'><b>getProductDes</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237024911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237024911'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.ProductsTest@6f44a157</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace385041270", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace385041270'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.invalidUserName()'><b>invalidUserName</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace563031889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace563031889'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Device RZCW111YE0V was not in the list of connected devices 
+Host info: host: &apos;Abisheks-MacBook-Air.local&apos;, ip: &apos;192.168.1.5&apos;
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, capabilities=[{appium:app=/Users/abishekr/IdeaProjects/Framwork_Scratch/ResourcesBuild/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk, appium:appActivity=com.swaglabsmobileapp.MainActivity, appium:appPackage=com.swaglabsmobileapp, appium:automationName=UiAutomator2, appium:chromeDriverPort=11002, appium:deviceName=Abi&apos;s S20 FE, platformName=ANDROID, appium:udid=RZCW111YE0V}]}]
+Capabilities {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi&apos;s S20 FE, platformName: ANDROID, udid: RZCW111YE0V}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
+	at com.qa.BaseTest.initializeDriver(BaseTest.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.testcase.LoginTest@35645047</td></tr>
+</table><p>
+</body>
+</html>

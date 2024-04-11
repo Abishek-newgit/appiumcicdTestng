@@ -1,0 +1,7 @@
+33:Android:com.qa.BaseTest:Userame is entered successfully!!standard_user
+33:Android:com.qa.BaseTest:Password is entered !!
+33:Android:com.qa.BaseTest:Login button is pressed
+33:Android:com.qa.BaseTest:Userame is entered successfully!!standard_user
+33:Android:com.qa.BaseTest:Password is entered !!
+33:Android:com.qa.BaseTest:Login button is pressed
+33:Android:com.qa.testcase.ProductsTest:Product price is: $29.99

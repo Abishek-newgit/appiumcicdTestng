@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="9" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-45/ProductsTest/getProductDes.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-45/ProductsTest/getProductDes.png' height = '100' width '100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-50/ProductsTest/getProductDes.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-50/ProductsTest/getProductDes.png' height = '100' width '100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png' height = '100' width '100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-16T21:40:22 IST" name="All Test Suite" finished-at="2024-03-16T21:41:27 IST" duration-ms="65106">
+    <groups>
+    </groups>
+    <test started-at="2024-03-16T21:40:22 IST" name="Samsung s20 Fe" finished-at="2024-03-16T21:41:04 IST" duration-ms="41579">
+      <class name="com.qa.testcase.LoginTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:22 IST" name="initializeDriver" finished-at="2024-03-16T21:40:29 IST" duration-ms="6337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abi's S20 FE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZCW111YE0V]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11002]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readJson()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:29 IST" name="readJson" finished-at="2024-03-16T21:40:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:29 IST" name="beforeMethod" finished-at="2024-03-16T21:40:29 IST" duration-ms="558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.emptyUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="emptyUsername()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:29 IST" name="emptyUsername" finished-at="2024-03-16T21:40:31 IST" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:31 IST" name="afterMethod" finished-at="2024-03-16T21:40:32 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:32 IST" name="beforeMethod" finished-at="2024-03-16T21:40:32 IST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:32 IST" name="invalidUserName" finished-at="2024-03-16T21:40:37 IST" duration-ms="5448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:37 IST" name="afterMethod" finished-at="2024-03-16T21:40:38 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:38 IST" name="beforeMethod" finished-at="2024-03-16T21:40:38 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:38 IST" name="validLogin" finished-at="2024-03-16T21:40:44 IST" duration-ms="5776" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRODUCTStes] but found [PRODUCTS]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRODUCTStes] but found [PRODUCTS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.testcase.LoginTest.validLogin(LoginTest.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:45 IST" name="afterMethod" finished-at="2024-03-16T21:40:45 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.LoginTest@3f91b517]" started-at="2024-03-16T21:40:45 IST" name="quitDriver" finished-at="2024-03-16T21:40:45 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.LoginTest -->
+      <class name="com.qa.testcase.ProductsTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:45 IST" name="initializeDriver" finished-at="2024-03-16T21:40:49 IST" duration-ms="4318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abi's S20 FE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZCW111YE0V]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11002]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readjson()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:49 IST" name="readjson" finished-at="2024-03-16T21:40:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readjson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:49 IST" name="beforeMethod" finished-at="2024-03-16T21:40:54 IST" duration-ms="4319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.getProductDes()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getProductDes()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:54 IST" name="getProductDes" finished-at="2024-03-16T21:40:56 IST" duration-ms="2587" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA['label' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, hint, extras, bounds, displayed, contentSize]
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d0af731-b87c-47a2-b31e-cd0c144ee090, getElementAttribute {name=label, id=00000000-0000-005f-ffff-ffff00000093}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:appActivity: com.swaglabsmobileapp.MainA..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromeDriverPort: 11002, appium:databaseEnabled: false, appium:desired: {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi's S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G781B, appium:deviceName: RZCW111YE0V, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RZCW111YE0V, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 88, appium:takesScreenshot: true, appium:udid: RZCW111YE0V, appium:viewportRect: {height: 2179, left: 0, top: 88, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (6d0af731-b87c-47a2-b31e-cd0c144ee090)] -> xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]]
+Session ID: 6d0af731-b87c-47a2-b31e-cd0c144ee090]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: 'label' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, hint, extras, bounds, displayed, contentSize]
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d0af731-b87c-47a2-b31e-cd0c144ee090, getElementAttribute {name=label, id=00000000-0000-005f-ffff-ffff00000093}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:appActivity: com.swaglabsmobileapp.MainA..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromeDriverPort: 11002, appium:databaseEnabled: false, appium:desired: {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11002, deviceName: Abi's S20 FE, platformName: ANDROID, udid: RZCW111YE0V}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G781B, appium:deviceName: RZCW111YE0V, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RZCW111YE0V, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 88, appium:takesScreenshot: true, appium:udid: RZCW111YE0V, appium:viewportRect: {height: 2179, left: 0, top: 88, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (6d0af731-b87c-47a2-b31e-cd0c144ee090)] -> xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]]
+Session ID: 6d0af731-b87c-47a2-b31e-cd0c144ee090
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:42)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:79)
+at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$JTK9zt2y.getAttribute(Unknown Source)
+at com.qa.BaseTest.getAttribute(BaseTest.java:306)
+at com.qa.BaseTest.getText(BaseTest.java:329)
+at com.qa.pages.ProductDetailsPage.getProductName(ProductDetailsPage.java:61)
+at com.qa.testcase.ProductsTest.getProductDes(ProductsTest.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-45/ProductsTest/getProductDes.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Abi's S20 FE_RZCW111YE0V/2024-03-16-21-40-45/ProductsTest/getProductDes.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getProductDes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:57 IST" name="afterMethod" finished-at="2024-03-16T21:40:57 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:40:57 IST" name="beforeMethod" finished-at="2024-03-16T21:41:02 IST" duration-ms="4187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:41:02 IST" name="validLogin" finished-at="2024-03-16T21:41:03 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:41:03 IST" name="afterMethod" finished-at="2024-03-16T21:41:04 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.ProductsTest@68702e03]" started-at="2024-03-16T21:41:04 IST" name="quitDriver" finished-at="2024-03-16T21:41:04 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.ProductsTest -->
+    </test> <!-- Samsung s20 Fe -->
+    <test started-at="2024-03-16T21:40:22 IST" name="Pixel4" finished-at="2024-03-16T21:41:11 IST" duration-ms="48219">
+      <class name="com.qa.testcase.LoginTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:22 IST" name="initializeDriver" finished-at="2024-03-16T21:40:31 IST" duration-ms="8454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readJson()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:31 IST" name="readJson" finished-at="2024-03-16T21:40:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:31 IST" name="beforeMethod" finished-at="2024-03-16T21:40:31 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.emptyUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="emptyUsername()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:31 IST" name="emptyUsername" finished-at="2024-03-16T21:40:34 IST" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:34 IST" name="afterMethod" finished-at="2024-03-16T21:40:35 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:35 IST" name="beforeMethod" finished-at="2024-03-16T21:40:35 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:35 IST" name="invalidUserName" finished-at="2024-03-16T21:40:42 IST" duration-ms="6849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:42 IST" name="afterMethod" finished-at="2024-03-16T21:40:42 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:42 IST" name="beforeMethod" finished-at="2024-03-16T21:40:43 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:43 IST" name="validLogin" finished-at="2024-03-16T21:40:49 IST" duration-ms="6382" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRODUCTStes] but found [PRODUCTS]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRODUCTStes] but found [PRODUCTS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.testcase.LoginTest.validLogin(LoginTest.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:50 IST" name="afterMethod" finished-at="2024-03-16T21:40:50 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.LoginTest@432038ec]" started-at="2024-03-16T21:40:50 IST" name="quitDriver" finished-at="2024-03-16T21:40:50 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.LoginTest -->
+      <class name="com.qa.testcase.ProductsTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:40:50 IST" name="initializeDriver" finished-at="2024-03-16T21:40:54 IST" duration-ms="4211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readjson()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:40:54 IST" name="readjson" finished-at="2024-03-16T21:40:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readjson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:40:54 IST" name="beforeMethod" finished-at="2024-03-16T21:40:58 IST" duration-ms="4124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.getProductDes()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getProductDes()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:40:58 IST" name="getProductDes" finished-at="2024-03-16T21:41:01 IST" duration-ms="2441" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA['label' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, hint, extras, bounds, displayed, contentSize]
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a512704c-05c9-4eae-bd18-ed3755d4ded7, getElementAttribute {name=label, id=00000000-0000-00a8-ffff-ffff00000091}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:appActivity: com.swaglabsmobileapp.MainA..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromeDriverPort: 11000, appium:databaseEnabled: false, appium:desired: {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, deviceName: Pixel4, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2131, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (a512704c-05c9-4eae-bd18-ed3755d4ded7)] -> xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]]
+Session ID: a512704c-05c9-4eae-bd18-ed3755d4ded7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: 'label' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, hint, extras, bounds, displayed, contentSize]
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a512704c-05c9-4eae-bd18-ed3755d4ded7, getElementAttribute {name=label, id=00000000-0000-00a8-ffff-ffff00000091}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:appActivity: com.swaglabsmobileapp.MainA..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:chromeDriverPort: 11000, appium:databaseEnabled: false, appium:desired: {app: /Users/abishekr/IdeaProject..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, deviceName: Pixel4, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2131, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (a512704c-05c9-4eae-bd18-ed3755d4ded7)] -> xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]]
+Session ID: a512704c-05c9-4eae-bd18-ed3755d4ded7
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:42)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:79)
+at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$ivyRcXVa.getAttribute(Unknown Source)
+at com.qa.BaseTest.getAttribute(BaseTest.java:306)
+at com.qa.BaseTest.getText(BaseTest.java:329)
+at com.qa.pages.ProductDetailsPage.getProductName(ProductDetailsPage.java:61)
+at com.qa.testcase.ProductsTest.getProductDes(ProductsTest.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-50/ProductsTest/getProductDes.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/Android_Pixel4_emulator-5554/2024-03-16-21-40-50/ProductsTest/getProductDes.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getProductDes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:41:02 IST" name="afterMethod" finished-at="2024-03-16T21:41:02 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:41:02 IST" name="beforeMethod" finished-at="2024-03-16T21:41:08 IST" duration-ms="6182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:41:08 IST" name="validLogin" finished-at="2024-03-16T21:41:10 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:41:10 IST" name="afterMethod" finished-at="2024-03-16T21:41:10 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.ProductsTest@6f44a157]" started-at="2024-03-16T21:41:10 IST" name="quitDriver" finished-at="2024-03-16T21:41:11 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.ProductsTest -->
+    </test> <!-- Pixel4 -->
+    <test started-at="2024-03-16T21:40:22 IST" name="iOS" finished-at="2024-03-16T21:41:27 IST" duration-ms="65106">
+      <class name="com.qa.testcase.LoginTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:22 IST" name="initializeDriver" finished-at="2024-03-16T21:40:31 IST" duration-ms="8758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone 15 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0FF07A15-687E-47A8-9F0A-5D58CC7A17D4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readJson()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:31 IST" name="readJson" finished-at="2024-03-16T21:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:31 IST" name="beforeMethod" finished-at="2024-03-16T21:40:31 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.emptyUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="emptyUsername()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:31 IST" name="emptyUsername" finished-at="2024-03-16T21:40:37 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:37 IST" name="afterMethod" finished-at="2024-03-16T21:40:39 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:39 IST" name="beforeMethod" finished-at="2024-03-16T21:40:41 IST" duration-ms="2419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:41 IST" name="invalidUserName" finished-at="2024-03-16T21:40:47 IST" duration-ms="6036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:47 IST" name="afterMethod" finished-at="2024-03-16T21:40:48 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:48 IST" name="beforeMethod" finished-at="2024-03-16T21:40:50 IST" duration-ms="2384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoginTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:50 IST" name="validLogin" finished-at="2024-03-16T21:40:57 IST" duration-ms="6735" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [PRODUCTStes] but found [PRODUCTS]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [PRODUCTStes] but found [PRODUCTS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.testcase.LoginTest.validLogin(LoginTest.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:58 IST" name="afterMethod" finished-at="2024-03-16T21:40:59 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.LoginTest@2421cc4]" started-at="2024-03-16T21:40:59 IST" name="quitDriver" finished-at="2024-03-16T21:40:59 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.LoginTest -->
+      <class name="com.qa.testcase.ProductsTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:40:59 IST" name="initializeDriver" finished-at="2024-03-16T21:41:06 IST" duration-ms="7586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone 15 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0FF07A15-687E-47A8-9F0A-5D58CC7A17D4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="readjson()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:06 IST" name="readjson" finished-at="2024-03-16T21:41:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readjson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:06 IST" name="beforeMethod" finished-at="2024-03-16T21:41:12 IST" duration-ms="5834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.getProductDes()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getProductDes()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:12 IST" name="getProductDes" finished-at="2024-03-16T21:41:16 IST" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductDes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:16 IST" name="afterMethod" finished-at="2024-03-16T21:41:17 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:17 IST" name="beforeMethod" finished-at="2024-03-16T21:41:24 IST" duration-ms="7427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.ProductsTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:24 IST" name="validLogin" finished-at="2024-03-16T21:41:26 IST" duration-ms="1745" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[{"value":{"error":"unknown method","message":"Method is not implemented","stacktrace":"NotImplementedError: Method is not implemented\n    at XCUITestDriver.execute (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/commands/execute.js:124:13)\n    at commandExecutor (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)\n    at /usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:171:12\n    at AsyncLock._promiseTry (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:304:31)\n    at exec (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:170:9)\n    at AsyncLock.acquire (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:187:3)\n    at XCUITestDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:123:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at XCUITestDriver.executeCommand (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:1068:12)\n    at defaultBehavior (/usr/local/lib/node_modules/appium/lib/appium.js:722:14)\n    at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:828:16)\n    at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:734:17)\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)"}}
+Command duration or timeout: 14 milliseconds
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd, executeScript {script=mobile: clickGesture, args=[{x=29, y=53}]}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:automationName: XCUITest, appium:databaseEnabled: false, appium:deviceName: iPhone 15 Plus, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 0FF07A15-687E-47A8-9F0A-5D5..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: iOSOnly, platformName: IOS}
+Session ID: d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: {"value":{"error":"unknown method","message":"Method is not implemented","stacktrace":"NotImplementedError: Method is not implemented\n    at XCUITestDriver.execute (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/commands/execute.js:124:13)\n    at commandExecutor (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)\n    at /usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:171:12\n    at AsyncLock._promiseTry (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:304:31)\n    at exec (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:170:9)\n    at AsyncLock.acquire (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:187:3)\n    at XCUITestDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:123:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at XCUITestDriver.executeCommand (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:1068:12)\n    at defaultBehavior (/usr/local/lib/node_modules/appium/lib/appium.js:722:14)\n    at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:828:16)\n    at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:734:17)\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)"}}
+Command duration or timeout: 14 milliseconds
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd, executeScript {script=mobile: clickGesture, args=[{x=29, y=53}]}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:automationName: XCUITest, appium:databaseEnabled: false, appium:deviceName: iPhone 15 Plus, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 0FF07A15-687E-47A8-9F0A-5D5..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: iOSOnly, platformName: IOS}
+Session ID: d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:221)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:170)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
+at com.qa.BaseTest.tapByCoordinates(BaseTest.java:344)
+at com.qa.pages.ProductsPage.clickHamburgerMenu(ProductsPage.java:75)
+at com.qa.testcase.ProductsTest.validLogin(ProductsTest.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png' height = '100' width '100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:26 IST" name="afterMethod" finished-at="2024-03-16T21:41:27 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcase.ProductsTest@30c93896]" started-at="2024-03-16T21:41:27 IST" name="quitDriver" finished-at="2024-03-16T21:41:27 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.ProductsTest -->
+    </test> <!-- iOS -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

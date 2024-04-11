@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  iOS</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>iOS</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 16 21:40:22 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>65 seconds (65106 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.testcase.LoginTest<br/>
+<a href="#Output-9890238" onClick='toggleBox("Output-9890238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9890238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9890238">
+This is the sample screenshot<br/>
+<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-22/LoginTest/validLogin.png' height = '100' width '100'/></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [PRODUCTStes] but found [PRODUCTS]
+	at com.qa.testcase.LoginTest.validLogin(LoginTest.java:149)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9890238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9890238'><pre>java.lang.AssertionError: expected [PRODUCTStes] but found [PRODUCTS]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.qa.testcase.LoginTest.validLogin(LoginTest.java:149)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testcase.LoginTest@2421cc4</td></tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.testcase.ProductsTest<br/>
+<a href="#Output-1879408141" onClick='toggleBox("Output-1879408141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1879408141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1879408141">
+This is the sample screenshot<br/>
+<a href = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png'> <img src = '/Users/abishekr/IdeaProjects/Framwork_Scratch/Screenshots/iOS_iPhone 15 Plus_0FF07A15-687E-47A8-9F0A-5D58CC7A17D4/2024-03-16-21-40-59/ProductsTest/validLogin.png' height = '100' width '100'/></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnsupportedCommandException: {&quot;value&quot;:{&quot;error&quot;:&quot;unknown method&quot;,&quot;message&quot;:&quot;Method is not implemented&quot;,&quot;stacktrace&quot;:&quot;NotImplementedError: Method is not implemented\n    at XCUITestDriver.execute (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/commands/execute.js:124:13)\n    at commandExecutor (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)\n    at /usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:171:12\n    at AsyncLock._promiseTry (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:304:31)\n    at exec (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:170:9)\n    at AsyncLock.acquire (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:187:3)\n    at XCUITestDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:123:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at XCUITestDriver.executeCommand (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:1068:12)\n    at defaultBehavior (/usr/local/lib/node_modules/appium/lib/appium.js:722:14)\n    at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:828:16)\n    at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:734:17)\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)&quot;}}
+Command duration or timeout: 14 milliseconds
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd, executeScript {script=mobile: clickGesture, args=[{x=29, y=53}]}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:automationName: XCUITest, appium:databaseEnabled: false, appium:deviceName: iPhone 15 Plus, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 0FF07A15-687E-47A8-9F0A-5D5..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: iOSOnly, platformName: IOS}
+Session ID: d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:221)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
+	at com.qa.BaseTest.tapByCoordinates(BaseTest.java:344)
+	at com.qa.pages.ProductsPage.clickHamburgerMenu(ProductsPage.java:75)
+	at com.qa.testcase.ProductsTest.validLogin(ProductsTest.java:129)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1879408141", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1879408141'><pre>org.openqa.selenium.UnsupportedCommandException: {&quot;value&quot;:{&quot;error&quot;:&quot;unknown method&quot;,&quot;message&quot;:&quot;Method is not implemented&quot;,&quot;stacktrace&quot;:&quot;NotImplementedError: Method is not implemented\n    at XCUITestDriver.execute (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/commands/execute.js:124:13)\n    at commandExecutor (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:107:18)\n    at /usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:171:12\n    at AsyncLock._promiseTry (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:304:31)\n    at exec (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:170:9)\n    at AsyncLock.acquire (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:187:3)\n    at XCUITestDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:123:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at XCUITestDriver.executeCommand (/Users/abishekr/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:1068:12)\n    at defaultBehavior (/usr/local/lib/node_modules/appium/lib/appium.js:722:14)\n    at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:828:16)\n    at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:734:17)\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:393:19)&quot;}}
+Command duration or timeout: 14 milliseconds
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd, executeScript {script=mobile: clickGesture, args=[{x=29, y=53}]}]
+Capabilities {appium:app: /Users/abishekr/IdeaProject..., appium:automationName: XCUITest, appium:databaseEnabled: false, appium:deviceName: iPhone 15 Plus, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 0FF07A15-687E-47A8-9F0A-5D5..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: iOSOnly, platformName: IOS}
+Session ID: d7f17dd2-c12b-4c97-a1e4-f2f6f17a21cd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:221)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
+	at com.qa.BaseTest.tapByCoordinates(BaseTest.java:344)
+	at com.qa.pages.ProductsPage.clickHamburgerMenu(ProductsPage.java:75)
+	at com.qa.testcase.ProductsTest.validLogin(ProductsTest.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>1</td>
+<td>com.qa.testcase.ProductsTest@30c93896</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcase.ProductsTest.getProductDes()'><b>getProductDes</b><br>Test class: com.qa.testcase.ProductsTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.testcase.ProductsTest@30c93896</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.invalidUserName()'><b>invalidUserName</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testcase.LoginTest@2421cc4</td></tr>
+<tr>
+<td title='com.qa.testcase.LoginTest.emptyUsername()'><b>emptyUsername</b><br>Test class: com.qa.testcase.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testcase.LoginTest@2421cc4</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+1:Android:com.qa.BaseTest:Login button is pressed
+1:Android:com.qa.BaseTest:Userame is entered successfully!!invalidname
+1:Android:com.qa.BaseTest:Password is entered !!
+1:Android:com.qa.BaseTest:Login button is pressed
+1:Android:com.qa.BaseTest:Userame is entered successfully!!standard_user
+1:Android:com.qa.BaseTest:Password is entered !!
+1:Android:com.qa.BaseTest:Login button is pressed

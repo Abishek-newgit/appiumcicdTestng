@@ -1,0 +1,3 @@
+33:Android:com.qa.BaseTest:Userame is entered successfully!!invalidname
+33:Android:com.qa.BaseTest:Password is entered !!
+33:Android:com.qa.BaseTest:Login button is pressed
